@@ -63,7 +63,7 @@ break;
 		
 		String url = "jdbc:mysql://localhost:3306/student_manage";
 		String userN = "root";
-		String passW = "toor";
+		String passW = "root";
 		final Connection con = DriverManager.getConnection(url,userN,passW);
 		
 		if(con.isClosed()) {
